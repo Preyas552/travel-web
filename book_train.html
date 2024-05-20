@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Train</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Book a Train</h1>
+    </header>
+    <section id="trains">
+        <h2>Book a Train</h2>
+        <form id="train-form">
+            <label for="from-train">From:</label>
+            <input type="text" id="from-train" name="from-train" required>
+            <label for="to-train">To:</label>
+            <input type="text" id="to-train" name="to-train" required>
+            <label for="date-train">Date:</label>
+            <input type="date" id="date-train" name="date-train" required>
+            <button type="submit">Search Trains</button>
+        </form>
+        <div id="train-results"></div>
+    </section>
+</body>
+</html>

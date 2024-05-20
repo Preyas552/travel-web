@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Bus</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Book a Bus</h1>
+    </header>
+    <section id="buses">
+        <h2>Book a Bus</h2>
+        <form id="bus-form">
+            <label for="from-bus">From:</label>
+            <input type="text" id="from-bus" name="from-bus" required>
+            <label for="to-bus">To:</label>
+            <input type="text" id="to-bus" name="to-bus" required>
+            <label for="date-bus">Date:</label>
+            <input type="date" id="date-bus" name="date-bus" required>
+            <button type="submit">Search Buses</button>
+        </form>
+        <div id="bus-results"></div>
+    </section>
+</body>
+</html>
